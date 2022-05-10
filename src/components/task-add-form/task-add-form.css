@@ -1,0 +1,41 @@
+.add-form {
+  margin: 0 auto;
+  display: grid;
+  width: 600px;
+  grid-template-columns: 600px;
+  gap: 20px;
+  background: rgb(88, 177, 226);
+  padding: 30px;
+  border-radius: 10px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.add-form__title {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+.add-form__title input {
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+}
+
+.add-form__description {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+.add-form__description textarea {
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+  resize: none;
+  font-family: Arial;
+}
+.add-form__button {
+  width: 200px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+  cursor: pointer;
+}

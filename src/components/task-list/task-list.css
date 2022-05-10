@@ -1,0 +1,18 @@
+.task {
+  width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  background: rgb(88, 177, 226);
+  border-radius: 10px;
+}
+.task h3 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.task-list {
+  display: grid;
+  grid-template-columns: 600px;
+  gap: 20px;
+  color: #fff;
+}
